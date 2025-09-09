@@ -1,8 +1,17 @@
-core.Microsoft*
-core.mongo*
-core.python*
-env.py
+# Python bytecode and cache
 __pycache__/
 *.py[cod]
+
+# Virtual environment
 .venv/
+
+# Secrets and credentials
 creds.json
+.env
+env.py
+
+# macOS system files
+.DS_Store
+
+# VS Code settings (if applicable)
+.vscode/
